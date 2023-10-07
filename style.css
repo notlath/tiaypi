@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #231f20;
+  background-color: #fec10e;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  font-family: "Raleway", sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 650px;
+
+  background-color: white;
+  text-align: center;
+
+  padding: 53px 105px;
+  border-radius: 20px;
+  border: 2px solid #2a2420;
+}
+.card h1 {
+  font-size: 2.25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  font-family: "Montserrat", sans-serif;
+  font-size: inherit;
+}
+.card button {
+  width: 100%;
+  height: 45px;
+  border-radius: 4px;
+  border: 2px solid #2a2420;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  cursor: pointer;
+  margin: 51px 0;
+  margin-bottom: 20px;
+}
+
+.card p {
+  margin-left: 15px;
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  width: 63px;
+  height: 44px;
+  border-radius: 10px;
+}
+.hr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+hr {
+  width: 100%;
+  height: 1px;
+  background-color: #333031;
+  border: none;
+}
+.hr p {
+  color: #333031;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 0px 10px;
+}
+.input input {
+  width: 100%;
+  height: 45px;
+  border-radius: 4px;
+  border: 2px solid #2a2420;
+
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  display: block;
+  margin-top: 24px;
+
+  font-family: "Montserrat", sans-serif;
+  padding: 0px 11px;
+  font-size: 16px;
+}
+button#login {
+  background-color: #fec10e;
+  color: #231f20;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+button#signup {
+  background-color: #2a2420;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 24px;
+}
+.reset {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.reset a {
+  text-decoration: none;
+  color: #231f20;
+}
