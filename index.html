@@ -34,18 +34,33 @@
           <p>or</p>
           <hr />
         </div>
-        <div class="input">
-          <input id="username" type="text" placeholder="Email" />
-          <input id="password" type="password" placeholder="Password" />
-        </div>
-        <div class="confirm">
-          <button id="login">Log in</button>
-          <button id="signup">Create Account</button>
-        </div>
-        <div class="reset">
-          <a href="#">Reset Password</a>
-        </div>
+        <form action="">
+          <div class="input">
+            <input
+              id="username"
+              type="email"
+              name="email"
+              placeholder="Email"
+              required
+              autocomplete="off"
+            />
+            <input
+              id="password"
+              type="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <div class="confirm">
+            <button id="login" type="submit">Log in</button>
+            <button id="signup">Create Account</button>
+          </div>
+          <div class="reset">
+            <a href="#">Reset Password</a>
+          </div>
+        </form>
       </div>
     </main>
+    <script src="app.js"></script>
   </body>
 </html>
